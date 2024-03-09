@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background: url("./assets/bg.jpg");
+  background-position: center;
+  min-height: 100vh;
+  color: #114405;
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  line-height: 1.25;
+  padding: 1rem;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+  background: transparent;
+}
