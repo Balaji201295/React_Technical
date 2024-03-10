@@ -43,7 +43,10 @@ const SingleBlog = () => {
           <span className="bg-white text-black px-2 rounded">{category}</span>
         </p>
         <p className="text-sm font-normal">
-          Published Date: <span className="font-bold">{published_date}</span>
+          Published Date:{" "}
+          <span className="bg-white text-black px-2 rounded">
+            {published_date}
+          </span>
         </p>
         <p className="text-sm">
           Reading Time:{" "}
